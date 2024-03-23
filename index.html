@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My porfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="/assets/profile-fill.png" type="image/x-icon">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icon -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  <!-- CSS File -->
+    <link rel="stylesheet" href="input.css" />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        font-family: "Poppins", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div id="loader" class="bg-black flex h-[100vh] w-[100%] fixed z-[99]">
+
+      <div class="slide bg-white h-[100vh] w-[100%]  mx-[0.6px]"></div>
+      <div class="slide bg-white h-[100vh] w-[100%]  mx-[0.6px]"></div>
+      <div class="slide bg-white h-[100vh] w-[100%]  mx-[0.6px]"></div>
+      <div class="slide bg-white h-[100vh] w-[100%] mx-[0.6px] "></div>
+    </div>
+
+    <div id="main" class="overflow-x-hidden">
+      <div
+        id="page1"
+        class="md:overflow-x-hidden h-[100vh] w-[100%] bg-black px-[28px] py-[13px] relative"
+      >
+        <div id="nav-bar" class="mb-[24px] text-white flex justify-between">
+          <h1 class="text-2xl capitalize">My porfolio</h1>
+
+          <i class="ri-menu-add-line text-[30px]"></i>
+        </div>
+
+        <div id="page1-hero" class="bg-black h-[80vh] w-full">
+          <div id="page1-hero-part1">
+            <p
+              class="md:w-[30%] md:ml-[11%] md:mt-[1px] text-white text-[18px] font-[400] font-['Poppins, sans-serif'] leading-[18px] font-sans"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dignissimos ipsam molestias quas id eos asperiores fugiat illo
+              debitis. Suscipit assumenda incidunt quos omnis fugit at veniam
+              accusamus numquam et odit!
+            </p>
+          </div>
+
+          <div id="page1-hero-part2" class="flex flex-col">
+            <h1
+              id="h1"
+              class="md:text-[13vw] md:justify-end md:flex md:pb-[37vh] text-[48px] font-[500] text-white uppercase leading-[50px] mt-[10px] font-sans"
+            >
+              digital
+            </h1>
+            <h1
+              id="H1"
+              class="md:text-[13vw] text-[48px] font-[500] text-white uppercase leading-[50px] font-sans"
+            >
+            creative
+            </h1>
+            h1
+          </div>
+
+          <div id="page1-hero-part3">
+            <img
+              class=" object-cover object-top md:w-[30vw] md:h-[40vh] md:mt-[-23vw] md:pb-[0px] md:ml-[54vw] w-[100%] h-[360px] pb-[11px]"
+              src="https://images.pexels.com/photos/965324/pexels-photo-965324.jpeg?auto=compress&cs=tinysrgb&w=600"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <div
+        id="page1-part2" class="md:h-[100vh] md:p-[10%] px-[28px] h-[50vh] w-[100%] text-white bg-black flex justify-center flex-col items-center ">
+        <h1 class=" md:text-[128px] text-[20vw] font-[100]">Selected</h1>
+
+        <samp class="flex md:justify-center justify-end">
+
+          <img id="circle" class="w-[24vw] md:w-[160px]" src="/assets/circle.svg" alt="" />
+
+          <h1 class=" md:text-[128px] leading-[141px] text-[20vw] font-[100] ">Works</h1>
+
+        </samp>
+      </div>
+
+      <div id="page2" class=" md:h-[100vh] md:w-[100%] h-[100vh] w-[100%] relative">
+
+        <div style="background-image: url(/assets/project1.PNG);" class="box box1  md:bg-cover md:bg-no-repeat md:bg-center md:opacity-[0.9]  md:h-[100vh] md:w-[100%]  h-[100vh] w-[100%] hover:bg-slate-100 text-white">
+      
+   
+
+           <div class="btn absolute md:bottom-[13%] bottom-[10%] md:left-[6%] left-[33%] text-center w-[130px] p-[8px] border-white border-[1px] transition-all  text-white rounded-[10px] "><a href="https://obys-agency1.netlify.app/" >Cilck to vist</a></div>
+      
+        </div>
+
+        <div style="background-image: url(/assets/project2.PNG); height: 100%; width: 100%; background-position: center; background-size: cover;"
+          class="box box2 sm:bg-cover sm:bg-no-repeat md:bg-center md:opacity-[0.9] md:h-[100vh] md:w-[100%] h-[100vh] w-[100px]  text-white opacity-[0.9] relative "
+        >
+        
+
+          <div class="btn absolute md:bottom-[10%] md:left-[50%] bottom-[10%] left-[33%] text-center w-[130px] p-[8px]  border-black border-[1px] rounded-[10px] text-black  "><a href="https://landos1.netlify.app/" >Cilck to vist</a></div>
+         
+        </div>
+        
+      </div>
+
+      <div id="page3" class="h-[70vh] w-[100vw] px-[20px] bg-slate-900">
+        <div class="h-[100%] w-[100%] text-white flex md:justify-center ">
+          <h1 class=" md:text-[100px] md:pt-[170px]  text-[60px] pt-[190px] font-[400]" >LET'S</h1>
+       <img id="circle" class=" md:w-[160px] w-[17vw] md:pt-[10px]" src="/assets/circle.svg" alt="" />
+       <h1 class="md:text-[100px] md:pt-[170px] text-[60px] pt-[190px] font-[400]">TALK</h1>
+      </div>
+  
+      </div>
+      <div id="page4" class="h-[20vh] w-[100%] bg-gray-200 flex justify-center items-center flex-col">
+        <div class="social-media" class="h-[10vh] w-[100%]">
+          <a href="https://www.instagram.com/ashish_vishwakarm_a?igsh=Nmxuam80ZGdmcm45" class="text-[30px] p-[5px]"><i class="ri-instagram-fill"></i></a>
+          <a href="https://github.com/Ashishvishwak" class="text-[30px] p-[5px]"><i class="ri-github-fill"></i></a>
+          <a href="https://twitter.com/_Ashish_Snippet" class="text-[30px] p-[5px]"><i class="ri-twitter-x-fill"></i></a>
+          <a href="https://www.linkedin.com/in/ashish-vishwakarma-7b013b266?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " class="text-[30px] p-[5px]"><i class="ri-linkedin-box-fill"></i></a>
+        </div>
+        <h3>
+          @Develop by Ashish
+        </h3>
+      </div>
+    </div>
+  </body>
+  <!-- CDN of GSAP -->
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+    integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <!-- CDN of ScrollTrigger -->
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+    integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script src="script.js"></script>
+</html>
